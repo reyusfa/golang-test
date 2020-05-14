@@ -37,9 +37,9 @@ type errResponse struct {
 func rootHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html")
 
-	t, _ := template.ParseFiles("index.html")
-
-	t.Execute(w, nil)
+	if t, err := template.ParseFiles("index.html"); err == nil {
+		t.Execute(w, nil)
+	}
 }
 
 func missingNumberHandler(w http.ResponseWriter, r *http.Request) {
