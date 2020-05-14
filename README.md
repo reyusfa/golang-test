@@ -24,6 +24,9 @@ http://localhost:8080/missing-number?input=23242526272830
 ## Demo
 
 [Index Page](http://3.87.58.95:8080)
+
 [Soal 0 - Palindrome Number](http://3.87.58.95:8080/palindrome-number?input=1%2010)
+
 [Soal 1 - Organize Book](http://3.87.58.95:8080/organize-book?input=3A13%205X19%209Y20%202C18%201N20%203N20%201M21%201F14%209A21%203N21%200E13%205G14%208A23%209E22%203N14)
+
 [Soal 2 - Missing Number](http://3.87.58.95:8080/missing-number?input=23242526272830)
